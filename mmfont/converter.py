@@ -207,3 +207,6 @@ def zg12uni51(input_text=""):
     output_text = re.sub('\u1036\u102f', '\u102f\u1036', output_text, flags=re.M)
     output_text = re.sub('(\u103a)(\u1037)', '\\2\\1', output_text, flags=re.M)
     return output_text
+
+def test(input_text=""):
+    return input_text
